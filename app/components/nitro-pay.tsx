@@ -29,7 +29,7 @@ window.nitroAds = window.nitroAds || {
 };
 
 export default function NitroPay() {
-  const isPatron = useAccountStore((state) => state.isPatron);
+  const isPatron = true;
   const [showFallback, setShowFallback] = useState<boolean | null>(null);
 
   useEffect(() => {
