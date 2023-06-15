@@ -21,8 +21,10 @@ jobs:
       - run: pnpm install
       - name: Build Overwolf app
         run: pnpm export
-      - name: Archive code coverage results
+      - name: Release Overwolf app
+        run: pnpm release  
+      - name: Archive opk
         uses: actions/upload-artifact@v3
         with:
-          name: code-coverage-report
-          path: /home/runner/work/diablo4.th.gl/diablo4.th.gl
+          name: opk
+          path: /home/runner/work/diablo4thgl.opk
