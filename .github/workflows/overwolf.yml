@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: opk
-          path: /home/runner/work/diablo4thgl.opk
+          path: diablo4thgl.opk
