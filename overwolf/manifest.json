@@ -2,12 +2,12 @@
   "manifest_version": 1,
   "type": "WebApp",
   "meta": {
-    "name": "Diablo 4 Map-DEV",
-    "author": "Leon Machens",
+    "name": "Diablo 4 Map-DEV KORLAN",
+    "author": "Leon Machens TEST",
     "version": "0.6.0",
     "minimum-overwolf-version": "0.218.0",
-    "description": "Diablo 4 Map",
-    "dock_button_title": "Diablo 4 Map",
+    "description": "Diablo 4 Map TEST",
+    "dock_button_title": "Diablo 4 Map TEST",
     "icon": "icons/iconMouseOver.png",
     "icon_gray": "icons/iconMouseNormal.png",
     "launcher_icon": "icons/launcherIcon.ico"
